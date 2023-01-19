@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  background: rgb(60, 60, 241);
+  border-radius: 6px;
+  padding: 20px;
+  width: 500px;
+}
+.content h1 {
+  color: white;
+}
+.content .formulary {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .formulary label {
+  text-transform: uppercase;
+  margin: 5px;
+}
+.content .formulary input {
+  padding: 2px;
+  border-radius: 4px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 12px;
+}
+.content .formulary select {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+}
+.content .formulary input[type=submit] {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: rgb(5, 197, 5);
+  height: 40px;
+  color: white;
+  font-size: 18px;
+}
+.content .formulary input[type=submit]:hover {
+  background: green;
+}/*# sourceMappingURL=Formulary.css.map */
