@@ -4,7 +4,7 @@ const Formulary=()=>{
     return(
         <div className="content">
             
-            <h1>CAMPO DE AVALIAÇÃO</h1>
+            <h1>Registro</h1>
 
             <form className="formulary">
                 <label>Nome</label>
